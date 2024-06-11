@@ -1,0 +1,52 @@
+[
+    {
+        "nume": "Aparat foto DSLR Canon EOS Rebel T7",
+        "pret": 2500,
+        "cantitate": 5
+    },
+    {
+        "nume": "Obiectiv Canon EF 50mm f/1.8 STM",
+        "pret": 500,
+        "cantitate": 10
+    },
+    {
+        "nume": "Blitz Canon Speedlite 430EX III-RT",
+        "pret": 1200,
+        "cantitate": 3
+    },
+    {
+        "nume": "Rucsac foto Lowepro Fastpack BP 250 AW II",
+        "pret": 300,
+        "cantitate": 7
+    },
+    {
+        "nume": "Filtru polarizant Hoya HD 77mm",
+        "pret": 150,
+        "cantitate": 15
+    },
+    {
+        "nume": "Stativ Manfrotto MT055XPRO3",
+        "pret": 800,
+        "cantitate": 4
+    },
+    {
+        "nume": "Geantă foto Vanguard Alta Rise 45",
+        "pret": 200,
+        "cantitate": 8
+    },
+    {
+        "nume": "Card de memorie SanDisk Extreme Pro 64GB",
+        "pret": 100,
+        "cantitate": 20
+    },
+    {
+        "nume": "Kit de curățare pentru echipament foto",
+        "pret": 50,
+        "cantitate": 12
+    },
+    {
+        "nume": "Placă de bază pentru studio foto",
+        "pret": 150,
+        "cantitate": 6
+    }
+]

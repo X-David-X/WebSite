@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/functii.js" defer></script>
+</head>
+<body>
+    <div class="container_index">
+        <header>
+            <h1>Homepage</h1>
+            <p>Bine ați venit pe pagina principală!</p>
+        </header>
+        <nav>
+            <div id="userStatus"class="container_index">
+                <% if (utilizator) { %>
+                    <% if (utilizator.rol === "admin") { %>
+                    <span>Esti logat cu id-ul <%=utilizator.nume%> cu rank de:</span> 
+                    <span class="logged-in-admin scroll-text"><%= utilizator.rol %></span>
+                    <% } else { %>
+                    <span>Esti logat cu id-ul <%=utilizator.nume%> cu rank de:</span> 
+                    <span class="logged-in-as"><%= utilizator.rol %></span>
+                    <% } %>
+                <% } else { %>
+                    Nu esti logat
+                <% } %>
+            </div>
+            <% if (utilizator && utilizator.rol === "admin") { %>
+                <a href="/delogare">Delogare</a>
+                <a href="/chestionar">Chestionar</a>
+                <a href="/inserare-db">Inserare în BD</a>
+                <a href="/shopping">Shop</a>
+            <% } else if (utilizator) { %>
+                <a href="/delogare">Delogare</a>
+                <a href="/chestionar">Chestionar</a>
+                <a href="/shopping">Shop</a>
+            <% } else { %>
+                <a href="/autentificare">Autentificare</a>
+            <% } %>
+        </nav>
+    </div>
+</body>
+</html>

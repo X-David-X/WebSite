@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creare Cont</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container_logare">
+        <a href="/"><button class="Home_button">Home</button></a>
+        <h1>Creare Cont</h1>
+        <form action="/creare-cont" method="post">
+            <div class="form-group_logare">
+                <label for="numeUtilizator">Utilizator:</label>
+                <input type="text" id="numeUtilizator" name="numeUtilizator" required>
+            </div>
+            <div class="form-group_logare">
+                <label for="parola">Parolă:</label>
+                <input type="password" id="parola" name="parola" required>
+            </div>
+            <div class="form-group_logare">
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" required>
+            </div>
+            <div class="form-group_logare">
+                <label for="prenume">Prenume:</label>
+                <input type="text" id="prenume" name="prenume" required>
+            </div>
+            <button type="submit" class="submit-button">Creare Cont</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+[
+    {
+        "nume": "Aparat foto DSLR Canon EOS Rebel T7",
+        "pret": 2500,
+        "cantitate": 5
+    },
+    {
+        "nume": "Obiectiv Canon EF 50mm f/1.8 STM",
+        "pret": 500,
+        "cantitate": 10
+    },
+    {
+        "nume": "Blitz Canon Speedlite 430EX III-RT",
+        "pret": 1200,
+        "cantitate": 3
+    },
+    {
+        "nume": "Rucsac foto Lowepro Fastpack BP 250 AW II",
+        "pret": 300,
+        "cantitate": 7
+    },
+    {
+        "nume": "Filtru polarizant Hoya HD 77mm",
+        "pret": 150,
+        "cantitate": 15
+    },
+    {
+        "nume": "Stativ Manfrotto MT055XPRO3",
+        "pret": 800,
+        "cantitate": 4
+    },
+    {
+        "nume": "Geantă foto Vanguard Alta Rise 45",
+        "pret": 200,
+        "cantitate": 8
+    },
+    {
+        "nume": "Card de memorie SanDisk Extreme Pro 64GB",
+        "pret": 100,
+        "cantitate": 20
+    },
+    {
+        "nume": "Kit de curățare pentru echipament foto",
+        "pret": 50,
+        "cantitate": 12
+    },
+    {
+        "nume": "Placă de bază pentru studio foto",
+        "pret": 150,
+        "cantitate": 6
+    },
+    {
+        "nume": "Ramă foto clasică",
+        "pret": 29.99,
+        "cantitate": 50
+    },
+    {
+        "nume": "Ramă foto modernă",
+        "pret": 34.99,
+        "cantitate": 40
+    },
+    {
+        "nume": "Tablou canvas 30x40",
+        "pret": 79.99,
+        "cantitate": 25
+    },
+    {
+        "nume": "Tablou canvas 50x70",
+        "pret": 149.99,
+        "cantitate": 15
+    },
+    {
+        "nume": "Sticlă personalizată cu foto",
+        "pret": 24.99,
+        "cantitate": 60
+    },
+    {
+        "nume": "Album foto tradițional",
+        "pret": 19.99,
+        "cantitate": 100
+    },
+    {
+        "nume": "Album foto digital",
+        "pret": 49.99,
+        "cantitate": 30
+    },
+    {
+        "nume": "Calendar personalizat cu fotografii",
+        "pret": 14.99,
+        "cantitate": 75
+    },
+    {
+        "nume": "Magnet de frigider cu fotografie",
+        "pret": 5.99,
+        "cantitate": 200
+    },
+    {
+        "nume": "Ceas de perete cu fotografie",
+        "pret": 39.99,
+        "cantitate": 20
+    },
+    {
+        "nume": "Puzzle personalizat cu fotografie",
+        "pret": 24.99,
+        "cantitate": 50
+    },
+    {
+        "nume": "Cutie de lemn pentru fotografii",
+        "pret": 29.99,
+        "cantitate": 35
+    },
+    {
+        "nume": "Cana personalizată cu fotografie",
+        "pret": 14.99,
+        "cantitate": 80
+    },
+    {
+        "nume": "Husă telefon personalizată cu fotografie",
+        "pret": 19.99,
+        "cantitate": 60
+    },
+    {
+        "nume": "Fotografie pe acrilic 20x30",
+        "pret": 39.99,
+        "cantitate": 45
+    },
+    {
+        "nume": "Placă de ardezie cu fotografie",
+        "pret": 34.99,
+        "cantitate": 25
+    },
+    {
+        "nume": "Pernă personalizată cu fotografie",
+        "pret": 19.99,
+        "cantitate": 55
+    },
+    {
+        "nume": "Felicitare personalizată cu fotografie",
+        "pret": 4.99,
+        "cantitate": 150
+    },
+    {
+        "nume": "Breloc personalizat cu fotografie",
+        "pret": 7.99,
+        "cantitate": 120
+    },
+    {
+        "nume": "Lumină LED personalizată cu fotografie",
+        "pret": 44.99,
+        "cantitate": 20
+    }
+]

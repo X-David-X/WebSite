@@ -1,0 +1,32 @@
+{
+  "name": "proiect-2-x-david-x",
+  "version": "1.0.0",
+  "description": "proiect fotografii",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDR-2023-2024/proiect-2-X-David-X.git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "bugs": {
+    "url": "https://github.com/HDR-2023-2024/proiect-2-X-David-X/issues"
+  },
+  "homepage": "https://github.com/HDR-2023-2024/proiect-2-X-David-X#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7"
+  }
+}

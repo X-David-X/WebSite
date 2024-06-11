@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chestionar</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <a href="/" ><button class="Home_button">Home</button></a>
+    <div class="stil_intrebari">
+        <% if (utilizator) { %>
+            <p class="welcome-message_intreabri">Bine ai venit, <%= utilizator.nume %> <%= utilizator.prenume %>!</p>
+        <% } else { %>
+            <p class="welcome-message_intreabri">Bine ai venit!</p>
+        <% } %>
+
+        <form action="/rezultat-chestionar" method="post">
+            <% for(let i = 0; i < intrebari.length; i++) { %>
+                <div class="intrebare">
+                    <h3 class="intrebare-title"><%= intrebari[i].intrebare %></h3>
+                    <% for(let j = 0; j < intrebari[i].variante.length; j++) { %>
+                        <div class="varianta">
+                            <input type="checkbox" name="intrebare<%= i %>" value="<%= j %>" class="varianta-checkbox">
+                            <label class="varianta-label"><%= intrebari[i].variante[j] %></label>
+                        </div>
+                    <% } %>
+                </div>
+            <% } %>
+            <button type="submit" class="submit-button">Trimite</button>
+        </form>
+    </div>
+</body>
+</html>

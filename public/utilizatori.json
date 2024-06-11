@@ -1,0 +1,24 @@
+[
+  {
+    "numeUtilizator": "admin1",
+    "parola": "admin1",
+    "nume": "AquiLa",
+    "prenume": "Diablo",
+    "rol": "admin"
+  },
+  {
+    "numeUtilizator": "valy",
+    "parola": "vali",
+    "nume": "valy",
+    "prenume": "vali",
+    "rol": "user"
+  },
+  {
+    "numeUtilizator": "pavelB",
+    "parola": "smiley",
+    "nume": "Pavel",
+    "prenume": "Bartos",
+    "rol": "user"
+  }
+
+]

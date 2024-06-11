@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coșul Tău</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <a href="/" ><button class="Home_button">Home</button></a>
+    <div class ="centreaza_style">
+    <div class="cart-container">
+        <h1 class="style_carucior-header">Coșul Tău</h1>
+        <% if (cart.length === 0) { %>
+            <p class="style_carucior-empty">Coșul tău este gol.</p>
+        <% } else { %>
+            <table class="style_carucior-table">
+                <thead>
+                    <tr>
+                        <th>Nume</th>
+                        <th>Cantitate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% cart.forEach(item => { %>
+                    <tr>
+                        <td><%= item.nume %></td>
+                        <td><%= item.cantitate %></td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+            <form action="/finalizeaza-cumparaturile" method="post" class="style_carucior-form">
+                <button type="submit" class="style_carucior-button">Finalizează Cumpărăturile</button>
+            </form>
+        <% } %>
+        <br>
+        <a href="/shopping"><button class="style_carucior-button">Înapoi la Shopping</button></a>
+    </div>
+</div>
+</body>
+</html>

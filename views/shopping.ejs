@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="stylizare_shopping">
+    <a href="/"><button class="Home_button">Home</button></a>
+    <div class="container_shopp">  
+        <div class="content">
+            <h1>Produse Disponibile</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nume</th>
+                        <th>Preț RON</th>
+                        <th>Cantitate Disponibilă</th>
+                        <th>Adaugă în Coș</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% produse.forEach(produs => { %>
+                    <tr>
+                        <td><%= produs.nume %></td>
+                        <td><%= produs.pret %></td>
+                        <td><%= produs.cantitate %></td>
+                        <td>
+                            <form action="/add-to-cart" method="post">
+                                <input type="hidden" name="nume" value="<%= produs.nume %>">
+                                <input type="number" name="cantitate" min="1" max="<%= produs.cantitate %>" required>
+                                <button type="submit">Adaugă</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+            <h2>Coșul Tău</h2>
+            <ul>
+                <% if (cart.length === 0) { %>
+                    <li>Coșul este gol.</li>
+                <% } else { %>
+                    <% cart.forEach(item => { %>
+                        <li><%= item.nume %> - Cantitate: <%= item.cantitate %></li>
+                    <% }); %>
+                <% } %>
+            </ul>
+            <br>
+            <a href="/vizualizare-cos"><button>Vezi Coș</button></a>
+        </div>
+        <div class="cube-container">
+            <div class="cube"></div>
+        </div>
+    </div>
+</body>
+</html>
